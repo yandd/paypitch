@@ -168,23 +168,17 @@ paycenter
 main包
 ===
 
-* 函数调用
-![paycenter](assets/paycenter.png)
 
 
 +++
 
 daily包
 ===
-
-* 函数调用
-![daily](assets/daily.png)
+![daily_struct](assets/daily_struct.png)
 
 +++
 
 polling包
 ===
 
-* 函数调用
-![polling](assets/polling.png)
 
