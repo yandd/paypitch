@@ -167,8 +167,29 @@ paycenter
 
 main包
 ===
+```
+├── paycenter
+│   ├── default.cfg
+│   ├── handler_admin.go
+│   ├── handler_callback.go
+│   ├── handler_inner.go
+│   ├── handler_public.go
+│   ├── handler_user.go
+│   ├── handler_util.go
+│   ├── main.go
+│   ├── perm.go
+│   ├── route.go
+│   ├── routeinner.go
+│   ├── routeother.go
+│   ├── routeouter.go
+│   └── vendor
+│       └── vendor.json
+```
 
+---
 
+* `handler_xxx.go`: router对应的直接handler
+* main包主要是gin server，daily.Run, polling.Run
 
 +++
 
@@ -183,3 +204,4 @@ polling包
 ===
 
 ![polling_struct](assets/polling_struct.png)
+
