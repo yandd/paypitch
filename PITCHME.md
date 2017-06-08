@@ -2,7 +2,7 @@
 paycenter
 ===
 
-+++
+---
 
 目录结构
 ===
@@ -163,7 +163,7 @@ paycenter
     └── transaction.go
 ```
 
-+++
+---
 
 main包
 ===
@@ -186,19 +186,19 @@ main包
 │       └── vendor.json
 ```
 
----
++++
 
 * `handler_xxx.go`: router对应的直接handler
 * main包主要是gin server，daily.Run, polling.Run
 
-+++
+---
 
 daily包
 ===
 
 ![daily_struct](assets/daily_struct.png)
 
-+++
+---
 
 polling包
 ===
