@@ -7,7 +7,7 @@ paycenter
 目录结构
 ===
 
-
+```
 .
 ├── bank
 │   ├── common
@@ -161,20 +161,30 @@ paycenter
     ├── receipt.go
     ├── sysdata.go
     └── transaction.go
-
+```
 
 +++
 
 main包
 ===
 
-* daily: 每日定时任务
-* polling: 轮询任务
+* 函数调用
+![paycenter](assets/paycenter.png)
+
 
 +++
 
 daily包
+===
+
+* 函数调用
+![daily](assets/daily.png)
 
 +++
 
 polling包
+===
+
+* 函数调用
+![polling](assets/polling.png)
+
