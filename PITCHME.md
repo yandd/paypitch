@@ -205,3 +205,16 @@ polling包
 
 ![polling_struct](assets/polling_struct.png)
 
+---
+
+安全
+===
+
+paycenter现有的保护措施：
+* ip白名单
+* 交易最后一步到账都需后台审核
+
+1. 未渗透至内网：
+* 获取到有支付权限账号（难）
+* 获取到有支付权限token
+* 获取到后台secret伪造合法token
