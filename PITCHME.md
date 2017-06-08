@@ -174,6 +174,7 @@ main包
 
 daily包
 ===
+
 ![daily_struct](assets/daily_struct.png)
 
 +++
@@ -181,4 +182,4 @@ daily包
 polling包
 ===
 
-
+![polling_struct](assets/polling_struct.png)
