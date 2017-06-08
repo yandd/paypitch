@@ -7,7 +7,7 @@ paycenter
 目录结构
 ===
 
-```
+
 .
 ├── bank
 │   ├── common
@@ -161,7 +161,7 @@ paycenter
     ├── receipt.go
     ├── sysdata.go
     └── transaction.go
-```
+
 
 +++
 
